@@ -172,8 +172,7 @@ lins <- rbind(line.400, line.300, line.200, line.100)
 plot + geom_line(data = lins, aes(x = x, y = y)) + 
   labs(title="Possible Parameter Values for Trials",
        x ="Number of Cells at Presentation", y = "Number of Cells Killed", 
-       fill = "Survival Advantage") + theme(aspect.ratio = 1, 
-                                            legend.position = c(0.8, 0.2))
+       fill = "Survival Advantage") 
 
 
 
